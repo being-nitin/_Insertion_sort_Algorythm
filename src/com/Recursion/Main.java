@@ -26,3 +26,8 @@ public class Main {
         nums[end] = temp;
     }
 }
+/* The outer loop will run till n-2 because j is starting from i+1 so
+it will give index out of bound. and break statement is used because
+if j is not less than j-1 then it won't check because the previous elements
+are already sorted.
+ */
